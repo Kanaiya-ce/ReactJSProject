@@ -1,0 +1,65 @@
+*{
+    margin: 0px; /* reset browser default margin value of different element. every element comes with some margin and padding depending upon the browser so we need to first reset it.*/
+    padding: 0px;
+}
+.wrapper{
+    margin:5px 100px;
+    
+}
+
+.header{
+    text-align: center;
+    padding:30px;
+    height: 120px;
+    background-color:white;
+    border-left: solid #f9f9f9;
+    border-right:solid #f9f9f9;
+}
+.header > h1 > a {
+    text-decoration: none;
+    color:black;
+    font-size:70px;
+}
+/* .main-nav{
+    height: 70px;
+    background-color: aquamarine;
+} */
+.main-nav > ul{
+    background-color: #00a9e0;
+    list-style: none;
+}
+.main-nav > ul > li {
+    display: inline-block;
+    padding: 10px;
+}
+.main-nav > ul > li > a{
+    text-decoration: none;
+    font-size:20px;
+    color: #ffffff;
+}
+.main-nav > ul > li:hover{
+    background-color: black;
+}
+.content > img{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    padding-bottom: 10px;
+}
+.content{
+    min-height: 500px; /* If we put only height it crosses the footer when we resize the browser that why we set min-height.*/
+    background-color:#f9f9f9;
+    font-size: 20px;
+    padding:10px 50px;
+}
+.content > p{
+    text-align: justify;
+}
+.footer{
+    background-color:grey;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+}
